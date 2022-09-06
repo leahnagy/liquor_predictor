@@ -17,6 +17,7 @@ The goal of this project was to create an insightful web/mobile application base
 After filtering the data to include only Vodka products sold from 01/01/2018 - 08/01/2022 in the state of Iowa, there were 2,825,713 sales transactions with 24 features. Some of the features included product description, manufacturer, sales(USD), sales(Liters), and bottle size. The data was directly downloaded from a CSV file from [data.iowa.gov](https://dev.socrata.com/foundry/data.iowa.gov/m3tr-qhgy) where you can also import the data via the Socrata API. 
 
 ## Data Pipeline
+<img width="1327" alt="Screen Shot 2022-09-06 at 12 28 29 PM" src="https://user-images.githubusercontent.com/89696586/188687988-d48cd538-2f11-4acd-bb92-dc661f3e3593.png">
 
 
 ## Tools
