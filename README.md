@@ -26,3 +26,7 @@ Future sales forecasting: Facebook Prophet
 Application development: Dash
 Application deployment: Heroku
 
+### Future Work
+1. Expanding the Product Range
+2. Regional Sales Analysis
+3. Real-time Updates
