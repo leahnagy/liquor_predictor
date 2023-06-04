@@ -7,28 +7,22 @@ Created By: Leah Nagy
 2. [Exploratory Data Analysis]()
 3. [Sales Forecasting with Facebook Prophet]()
 4. [Dash App Code]()
+5. [Experience the Application](https://leahs-liquor-app.herokuapp.com)
 
-### Check Out the Application
-[Iowa Vodka Sales App](https://leahs-liquor-app.herokuapp.com)
+### Project Overview
+This project aimed to deliver an intuitive web/mobile application that elucidates historical trends and future projections of Iowa's Vodka sales. This tool serves to provide valuable insights for producers, retailers, and the Iowa Alcoholic Beverages Division. The application was developed based on data sourced from Iowa.gov, with Facebook's Prophet used for forecasting future sales. The application was built using Dash and deployed on Heroku for global accessibility.
 
-### Abstract
-The goal of this project was to create an insightful web/mobile application based on historical data of Iowa Vodka sales that can inform producers, retailers and Iowa's Alcoholic Beverages Division about past and future sales trends. I worked with data provided by Iowa.gov to extract past sales information and created future sales forecasting using Facebook Prophet. Using Dash and Heroku, key insights are available in a user-friendly application.
-
-
-### Data
-After filtering the data to include only Vodka products sold from 01/01/2018 - 08/01/2022 in the state of Iowa, there were 2,825,713 sales transactions with 24 features. Some of the features included product description, manufacturer, sales(USD), sales(Liters), and bottle size. The data was directly downloaded from a CSV file from [data.iowa.gov](https://dev.socrata.com/foundry/data.iowa.gov/m3tr-qhgy) where you can also import the data via the Socrata API. 
+### Dataset
+The dataset consists of 2,825,713 sales transactions pertaining to Vodka products sold in the state of Iowa from January 1, 2018, to August 1, 2022. Each transaction comes with 24 features such as product description, manufacturer, sales in USD, sales in liters, and bottle size. The data was obtained directly from data.iowa.gov via a CSV file. Alternatively, it can also be imported through the Socrata API.
 
 ### Data Pipeline
-<img width="1327" alt="Screen Shot 2022-09-06 at 12 28 29 PM" src="https://user-images.githubusercontent.com/89696586/188687988-d48cd538-2f11-4acd-bb92-dc661f3e3593.png">
+The following is a snapshot of the data pipeline used for this project:<img width="1327" alt="Screen Shot 2022-09-06 at 12 28 29 PM" src="https://user-images.githubusercontent.com/89696586/188687988-d48cd538-2f11-4acd-bb92-dc661f3e3593.png">
 
 
-### Tools
-- SQLite, Numpy and Pandas for data manipulation and EDA
-- Plotly for interactive visualizations
-- Facebook Prophet for future sales forecasting
-- Dash to create the application
-- Heroku to deploy app globally
-
-### Communication
-In addition to the slides and visuals presented, this project will be embedded on my GitHub site along with an article describing the steps of the project in detail on my personal blog. 
+### Tools Utilized
+- Data manipulation and exploratory data analysis (EDA): SQLite, Numpy, and Pandas
+Interactive visualizations: Plotly
+Future sales forecasting: Facebook Prophet
+Application development: Dash
+Application deployment: Heroku
 
